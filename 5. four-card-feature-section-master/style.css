@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  line-height: 1.75;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+div > div {
+  padding: 30px;
+  background-color: white;
+  height: 255px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 0 0 10px 10px
+}
+
+div > p {
+  margin: 0;
+}
+
+header {
+text-align: center;
+background-color: hsl(0, 0%, 98%);
+box-sizing: border-box;
+padding: 60px 30px 0 30px;
+width: 400px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+main {
+  text-align: left;
+  background-color: hsl(0, 0%, 98%);
+  box-sizing: border-box;
+  width: 400px;
+  padding: 60px 30px;
+}
+
+main > div {
+  display: flex;
+  align-items: flex-end;
+  margin: 30px 0;
+  height: 260px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.supervisor {
+  background-color: hsl(180, 62%, 55%);
+  box-shadow: 0px 20px 50px -30px hsl(229, 6%, 66%);
+  margin: 0;
+}
+
+.team_builder {
+  background-color: hsl(0, 78%, 62%);
+  box-shadow: 0px 20px 50px -30px hsl(229, 6%, 66%);
+}
+
+.karma {
+  background-color: hsl(34, 97%, 64%);
+  box-shadow: 0px 20px 50px -30px hsl(229, 6%, 66%);
+  margin: 0;
+}
+
+.calculator {
+  background-color: hsl(212, 86%, 64%);
+  box-shadow: 0px 20px 50px -30px hsl(229, 6%, 66%);
+  margin-bottom: 0;
+}
+
+#h1_1 {
+  font-weight: 200;
+  font-size: 27px;
+}
+
+#h1_2 {
+  font-weight: 600;
+  font-size: 27px;
+  color: hsl(234, 12%, 34%);
+}
+
+@media screen and (min-width: 1100px) {
+
+  main {
+    position: relative;
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+  }
+
+  h1 {
+    margin: 0 auto;
+    width: 500px;
+    left: 470px;
+  }
+
+  header {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 250px;
+  }
+
+  header > p {
+    width: 500px;
+    margin: px 0;
+    position: absolute;
+    left: 470px;
+    top: 180px;
+  }
+
+  main > div {
+    margin: 0 auto;
+    width: 300px;
+    position: absolute;
+  }
+
+  .supervisor {
+    top: 220px;
+    left: 235px;
+  }
+
+  .team_builder {
+    top: 75px;
+    left: 570px;
+  }
+
+  .karma {
+    top: 365px;
+    left: 570px;
+  }
+
+  .calculator {
+    top: 220px;
+    right: 235px;
+  }
+}
